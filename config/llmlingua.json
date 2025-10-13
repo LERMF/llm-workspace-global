@@ -1,0 +1,20 @@
+{
+  "compression": {
+    "enabled": true,
+    "mode": "always",
+    "ratio": 25,
+    "fidelity": 0.98,
+    "expand_trigger": "EXPAND:",
+    "providers": [
+      "ollama",
+      "groq",
+      "replicate"
+    ],
+    "model": "microsoft/llmlingua-2"
+  },
+  "workflow": {
+    "default_format": "compressed",
+    "natural_language_trigger": "quando eu pedir para entender algo em linguagem natural",
+    "inter_llm_format": "compressed_only"
+  }
+}
